@@ -7,7 +7,11 @@ bricks:
   # hello: 0.1.0+1
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
-  # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+  tdd_boilerplate_core:
+    path: bricks/tdd_boilerplate_core
+  tdd_boilerplate_model:
+    path: bricks/tdd_boilerplate_model
+  tdd_boilerplate_usecases:
+    path: bricks/tdd_boilerplate_usecases
+  tdd_boilerplate_repository:
+    path: bricks/tdd_boilerplate_repository

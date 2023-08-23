@@ -1,0 +1,9 @@
+name: generator
+description: A template generator for Very Good CLI.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+dependencies:
+  path: ^1.8.3
